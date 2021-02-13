@@ -69,7 +69,7 @@ end architecture dataflow;
 ```
 ![Logo](1obr.png)
 
-###**Source code Experiment 1.**
+**Source code Experiment 1.**
 ```vhdl
 ------------------------------------------------------------------------
 
@@ -105,7 +105,7 @@ end architecture dataflow;
 https://www.edaplayground.com/x/cBis [EDA playground]
 ![Logo](2obr.png)
 
-###**Source code 2. experiment**
+**Source code Experiment 2.**
 ```vhdl
 ------------------------------------------------------------------------
 
