@@ -103,3 +103,5 @@ end architecture dataflow;
 
 ```
 https://www.edaplayground.com/x/cBis [EDA playground]
+![Logo](2obr.png)
+
