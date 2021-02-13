@@ -37,24 +37,34 @@ https://www.edaplayground.com/x/DjZa - automatic!
 **Source code**
 
 ```vhdl
-architecture testbench of tb_gates is
+------------------------------------------------------------------------
 
-    -- Local signals
-    signal s_a    : std_logic;
-    signal s_b    : std_logic;
-    signal s_for  : std_logic;
-    signal s_fand : std_logic;
-    signal s_fxor : std_logic;
+library ieee;               -- Standard library
+use ieee.std_logic_1164.all;-- Package for data types and logic operations
 
+------------------------------------------------------------------------
+-- Entity declaration for basic gates
+------------------------------------------------------------------------
+entity gates is
+    port(
+        a_i     : in  std_logic;        -- Data input
+        b_i     : in  std_logic;        -- Data input
+        c_i     : in  std_logic;        -- Data input
+        f_o     : out std_logic;        -- OR output function
+        fnand_o : out std_logic;        -- NAND output function
+        fnor_o : out std_logic          -- NOR output function
+    );
+end entity gates;
+
+------------------------------------------------------------------------
+-- Architecture body for basic gates
+------------------------------------------------------------------------
+architecture dataflow of gates is
 begin
-    -- Connecting testbench signals with gates entity (Unit Under Test)
-    uut_gates : entity work.gates
-        port map(
-            a_i    => s_a,
-            b_i    => s_b,
-            for_o  => s_for,
-            fand_o => s_fand,
-            fxor_o => s_fxor
-        );
+    f_o  <= ((not b_i) and a_i) or ((not b_i) and (not c_i));
+    fnand_o <= not(not(a_i and not(b_i)) and not(not b_i and not c_i));
+    fnor_o <= not(not(a_i or not c_i) or b_i);
+
+end architecture dataflow;
 ```
-**Tajný vzkaz**
+https://www.edaplayground.com/x/DjZa [EDA playground]
