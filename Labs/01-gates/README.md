@@ -22,16 +22,16 @@
 https://www.edaplayground.com/x/DjZa - automatic!
 [EDAplayground](https://edaplayground.com/x/DjZa)
   
-| c | b | a | f(c,b,a,)|
-|---|---|---|----------|
-| 0 | 0 | 0 |          |
-| 0 | 0 | 1 |          |
-| 0 | 1 | 0 |          |
-| 0 | 1 | 1 |          |
-| 1 | 0 | 0 |          |
-| 1 | 0 | 1 |          |
-| 1 | 1 | 0 |          |
-| 1 | 1 | 1 |          |
+| c | b | a | f(c,b,a,)| f(c,b,a,)nand| f(c,b,a,)nor|
+|---|---|---|----------|--------------|-------------|
+| 0 | 0 | 0 |    1     |       1      |      1      |
+| 0 | 0 | 1 |    1     |       1      |      1      |
+| 0 | 1 | 0 |    0     |       0      |      0      | 
+| 0 | 1 | 1 |    0     |       0      |      0      |
+| 1 | 0 | 0 |    0     |       0      |      0      |
+| 1 | 0 | 1 |    1     |       1      |      1      |
+| 1 | 1 | 0 |    0     |       0      |      0      |
+| 1 | 1 | 1 |    0     |       0      |      0      |
 
 
 **Source code**
@@ -67,4 +67,3 @@ begin
 
 end architecture dataflow;
 ```
-https://www.edaplayground.com/x/DjZa [EDA playground]
