@@ -67,3 +67,4 @@ begin
 
 end architecture dataflow;
 ```
+[photo]: https://github.com/milan-drahozal/Digital-electronics-1/blob/main/Labs/01-gates/1obr.png "Fotka simulatoru"
