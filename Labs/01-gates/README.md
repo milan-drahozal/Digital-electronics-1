@@ -68,3 +68,38 @@ begin
 end architecture dataflow;
 ```
 ![Logo](1obr.png)
+
+**Source code Experiment 1.**
+```vhdl
+------------------------------------------------------------------------
+
+library ieee;               -- Standard library
+use ieee.std_logic_1164.all;-- Package for data types and logic operations
+
+------------------------------------------------------------------------
+-- Entity declaration for basic gates
+------------------------------------------------------------------------
+entity gates is
+    port(
+        x_i        : in  std_logic;         -- Data input
+        fand_o     : out std_logic;         -- OR output function
+        for_o      : out std_logic;         -- AND output function
+        forplus_o  : out std_logic;          -- XOR output function
+        fandplus_o : out std_logic  
+    );
+end entity gates;
+
+------------------------------------------------------------------------
+-- Architecture body for basic gates
+------------------------------------------------------------------------
+architecture dataflow of gates is
+begin
+    fand_o     <= x_i and not x_i;
+    for_o      <= x_i or not x_i;
+    forplus_o  <= x_i or x_i or x_i;
+    fandplus_o <= x_i and x_i and x_i;
+
+end architecture dataflow;
+
+```
+https://www.edaplayground.com/x/cBis [EDA playground]
