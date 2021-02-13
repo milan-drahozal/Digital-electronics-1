@@ -34,7 +34,7 @@ https://www.edaplayground.com/x/DjZa - automatic!
 | 1 | 1 | 1 |    0     |       0      |      0      |
 
 
-**Source code**
+###**Source code**
 
 ```vhdl
 ------------------------------------------------------------------------
@@ -69,7 +69,7 @@ end architecture dataflow;
 ```
 ![Logo](1obr.png)
 
-**Source code Experiment 1.**
+###**Source code Experiment 1.**
 ```vhdl
 ------------------------------------------------------------------------
 
@@ -105,3 +105,36 @@ end architecture dataflow;
 https://www.edaplayground.com/x/cBis [EDA playground]
 ![Logo](2obr.png)
 
+###**Source code 2. experiment**
+```vhdl
+------------------------------------------------------------------------
+
+library ieee;               -- Standard library
+use ieee.std_logic_1164.all;-- Package for data types and logic operations
+
+------------------------------------------------------------------------
+-- Entity declaration for basic gates
+------------------------------------------------------------------------
+entity gates is
+    port(
+        a_i    : in  std_logic;         -- Data input
+        b_i    : in  std_logic;         -- Data input
+        for_o  : out std_logic;         -- OR output function
+        fand_o : out std_logic;         -- AND output function
+        fxor_o : out std_logic          -- XOR output function
+    );
+end entity gates;
+
+------------------------------------------------------------------------
+-- Architecture body for basic gates
+------------------------------------------------------------------------
+architecture dataflow of gates is
+begin
+    for_o  <= a_i or b_i;
+    fand_o <= a_i and b_i;
+    fxor_o <= a_i xor b_i;
+
+end architecture dataflow;
+```
+https://www.edaplayground.com/x/E9xv [EDA playground]
+![Logo](3obr.png)
