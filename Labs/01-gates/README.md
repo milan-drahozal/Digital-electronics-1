@@ -54,6 +54,8 @@ begin
 
 end architecture dataflow;
 ```
+
+#### EDA playground
 Odkaz na simulátor [EDAplayground](https://edaplayground.com/x/DjZa)
   
 | c | b | a | f(c,b,a,)| f(c,b,a,)nand| f(c,b,a,)nor|
@@ -102,8 +104,9 @@ begin
 end architecture dataflow;
 
 ```
-Odkaz na simulátor 2. experimentu [EDA playground](https://www.edaplayground.com/x/cBis)
-[Logo](2obr.png)
+Odkaz na simulátor 1. experimentu [EDA playground](https://www.edaplayground.com/x/cBis)
+
+![Logo](2obr.png)
 
 **Source code 2. Experiment**
 ```vhdl
@@ -136,5 +139,7 @@ begin
 
 end architecture dataflow;
 ```
+#### EDA playground
 Odkaz na simulátor 2. experimentu [EDA playground](https://www.edaplayground.com/x/E9xv)
+
 ![Logo](3obr.png)
