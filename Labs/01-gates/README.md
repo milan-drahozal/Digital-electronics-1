@@ -17,20 +17,8 @@
   * kladivo
   
  #### 1.
- Odkaz na [GitHub](https://raw.githubusercontent.com/tomas-fryza/Digital-electronics-1/master/Labs/01-gates/README.md).
+ Odkaz na můj [GitHub](https://raw.githubusercontent.com/tomas-fryza/Digital-electronics-1/master/Labs/01-gates/README.md).
 
-Odkaz na simulátor [EDAplayground](https://edaplayground.com/x/DjZa)
-  
-| c | b | a | f(c,b,a,)| f(c,b,a,)nand| f(c,b,a,)nor|
-|---|---|---|----------|--------------|-------------|
-| 0 | 0 | 0 |    1     |       1      |      1      |
-| 0 | 0 | 1 |    1     |       1      |      1      |
-| 0 | 1 | 0 |    0     |       0      |      0      | 
-| 0 | 1 | 1 |    0     |       0      |      0      |
-| 1 | 0 | 0 |    0     |       0      |      0      |
-| 1 | 0 | 1 |    1     |       1      |      1      |
-| 1 | 1 | 0 |    0     |       0      |      0      |
-| 1 | 1 | 1 |    0     |       0      |      0      |
 
 
 ### **Source code**
@@ -66,7 +54,20 @@ begin
 
 end architecture dataflow;
 ```
-[Logo](1obr.png)
+Odkaz na simulátor [EDAplayground](https://edaplayground.com/x/DjZa)
+  
+| c | b | a | f(c,b,a,)| f(c,b,a,)nand| f(c,b,a,)nor|
+|---|---|---|----------|--------------|-------------|
+| 0 | 0 | 0 |    1     |       1      |      1      |
+| 0 | 0 | 1 |    1     |       1      |      1      |
+| 0 | 1 | 0 |    0     |       0      |      0      | 
+| 0 | 1 | 1 |    0     |       0      |      0      |
+| 1 | 0 | 0 |    0     |       0      |      0      |
+| 1 | 0 | 1 |    1     |       1      |      1      |
+| 1 | 1 | 0 |    0     |       0      |      0      |
+| 1 | 1 | 1 |    0     |       0      |      0      |
+
+![Logo](1obr.png)
 
 ### **Source code 1. Experiment**
 ```vhdl
@@ -136,4 +137,4 @@ begin
 end architecture dataflow;
 ```
 Odkaz na simulátor 2. experimentu [EDA playground](https://www.edaplayground.com/x/E9xv)
-[Logo](3obr.png)
+![Logo](3obr.png)
