@@ -72,6 +72,9 @@ Odkaz na simulátor [EDAplayground](https://edaplayground.com/x/DjZa)
 ![Logo](1obr.png)
 
 ### **Source code 1. Experiment**
+
+#### The Verification of Basic Boolean Postulates
+
 ```vhdl
 ------------------------------------------------------------------------
 
@@ -109,6 +112,10 @@ Odkaz na simulátor 1. experimentu [EDA playground](https://www.edaplayground.co
 ![Logo](2obr.png)
 
 **Source code 2. Experiment**
+
+
+#### The Verify of Distributive Laws
+
 ```vhdl
 ------------------------------------------------------------------------
 
