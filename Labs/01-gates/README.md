@@ -16,11 +16,10 @@
   * šroubovák
   * kladivo
   
- http://github.com - automatic!
-[GitHub](http://github.com)
+ #### 1.
+ Odkaz na [GitHub](https://raw.githubusercontent.com/tomas-fryza/Digital-electronics-1/master/Labs/01-gates/README.md).
 
-https://www.edaplayground.com/x/DjZa - automatic!
-[EDAplayground](https://edaplayground.com/x/DjZa)
+Odkaz na simulátor [EDAplayground](https://edaplayground.com/x/DjZa)
   
 | c | b | a | f(c,b,a,)| f(c,b,a,)nand| f(c,b,a,)nor|
 |---|---|---|----------|--------------|-------------|
@@ -34,7 +33,7 @@ https://www.edaplayground.com/x/DjZa - automatic!
 | 1 | 1 | 1 |    0     |       0      |      0      |
 
 
-###**Source code**
+### **Source code**
 
 ```vhdl
 ------------------------------------------------------------------------
@@ -67,9 +66,9 @@ begin
 
 end architecture dataflow;
 ```
-![Logo](1obr.png)
+[Logo](1obr.png)
 
-**Source code Experiment 1.**
+### **Source code 1. Experiment**
 ```vhdl
 ------------------------------------------------------------------------
 
@@ -102,10 +101,10 @@ begin
 end architecture dataflow;
 
 ```
-https://www.edaplayground.com/x/cBis [EDA playground]
-![Logo](2obr.png)
+Odkaz na simulátor 2. experimentu [EDA playground](https://www.edaplayground.com/x/cBis)
+[Logo](2obr.png)
 
-**Source code Experiment 2.**
+**Source code 2. Experiment**
 ```vhdl
 ------------------------------------------------------------------------
 
@@ -136,5 +135,5 @@ begin
 
 end architecture dataflow;
 ```
-https://www.edaplayground.com/x/E9xv [EDA playground]
-![Logo](3obr.png)
+Odkaz na simulátor 2. experimentu [EDA playground](https://www.edaplayground.com/x/E9xv)
+[Logo](3obr.png)
