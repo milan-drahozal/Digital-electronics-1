@@ -17,7 +17,7 @@
   * kladivo
   
  #### 1.
- Odkaz na můj [GitHub](https://raw.githubusercontent.com/tomas-fryza/Digital-electronics-1/master/Labs/01-gates/README.md).
+ Odkaz na můj [GitHub](https://github.com/milan-drahozal).
 
 
 
