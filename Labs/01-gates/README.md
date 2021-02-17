@@ -16,25 +16,12 @@
   * šroubovák
   * kladivo
   
- http://github.com - automatic!
-[GitHub](http://github.com)
-
-https://www.edaplayground.com/x/DjZa - automatic!
-[EDAplayground](https://edaplayground.com/x/DjZa)
-  
-| c | b | a | f(c,b,a,)| f(c,b,a,)nand| f(c,b,a,)nor|
-|---|---|---|----------|--------------|-------------|
-| 0 | 0 | 0 |    1     |       1      |      1      |
-| 0 | 0 | 1 |    1     |       1      |      1      |
-| 0 | 1 | 0 |    0     |       0      |      0      | 
-| 0 | 1 | 1 |    0     |       0      |      0      |
-| 1 | 0 | 0 |    0     |       0      |      0      |
-| 1 | 0 | 1 |    1     |       1      |      1      |
-| 1 | 1 | 0 |    0     |       0      |      0      |
-| 1 | 1 | 1 |    0     |       0      |      0      |
+ #### 1.
+ Odkaz na můj [GitHub](https://github.com/milan-drahozal).
 
 
-###**Source code**
+
+### **Source code**
 
 ```vhdl
 ------------------------------------------------------------------------
@@ -67,9 +54,27 @@ begin
 
 end architecture dataflow;
 ```
+
+#### EDA playground
+Odkaz na simulátor [EDAplayground](https://edaplayground.com/x/DjZa)
+  
+| c | b | a | f(c,b,a,)| f(c,b,a,)nand| f(c,b,a,)nor|
+|---|---|---|----------|--------------|-------------|
+| 0 | 0 | 0 |    1     |       1      |      1      |
+| 0 | 0 | 1 |    1     |       1      |      1      |
+| 0 | 1 | 0 |    0     |       0      |      0      | 
+| 0 | 1 | 1 |    0     |       0      |      0      |
+| 1 | 0 | 0 |    0     |       0      |      0      |
+| 1 | 0 | 1 |    1     |       1      |      1      |
+| 1 | 1 | 0 |    0     |       0      |      0      |
+| 1 | 1 | 1 |    0     |       0      |      0      |
+
 ![Logo](1obr.png)
 
-**Source code Experiment 1.**
+### **Source code 1. Experiment**
+
+#### The Verification of Basic Boolean Postulates
+
 ```vhdl
 ------------------------------------------------------------------------
 
@@ -102,10 +107,15 @@ begin
 end architecture dataflow;
 
 ```
-https://www.edaplayground.com/x/cBis [EDA playground]
+Odkaz na simulátor 1. experimentu [EDA playground](https://www.edaplayground.com/x/cBis)
+
 ![Logo](2obr.png)
 
-**Source code Experiment 2.**
+**Source code 2. Experiment**
+
+
+#### The Verify of Distributive Laws
+
 ```vhdl
 ------------------------------------------------------------------------
 
@@ -136,5 +146,7 @@ begin
 
 end architecture dataflow;
 ```
-https://www.edaplayground.com/x/E9xv [EDA playground]
+#### EDA playground
+Odkaz na simulátor 2. experimentu [EDA playground](https://www.edaplayground.com/x/E9xv)
+
 ![Logo](3obr.png)
