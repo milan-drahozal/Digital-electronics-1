@@ -106,8 +106,8 @@ p_stimulus : process
 **File > Project > New**
 * Dále se proklikám k oknu, kde nastavím jméno projektu
 ![Fotka](DE1_Tutorial/obr1.png)
-Tak to nastavíme typ projektu
-Dále se proklikám k oknu na pro nastavení jména projektu
+######Tak to nastavíme typ projektu
+* Dále se proklikám k oknu na pro nastavení jména projektu
 ![Fotka](DE1_Tutorial/obr2.png)
 **Postup přidání source file**
 Je nutné nastavit jazyk VHDL
