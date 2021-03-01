@@ -4,7 +4,7 @@
 
 ### Domácí práce z 3. cvičení
 
-#### 1. Figure or table with connection of 16 slide switches and 16 LEDs on Nexys A7 board.
+### 1. Figure or table with connection of 16 slide switches and 16 LEDs on Nexys A7 board.
 
 | **LED** | **Connection** | **Switch** | **Connection** | 
 | :-: | :-: | :-: | :-: |
@@ -25,7 +25,7 @@
 | LED14 | V12 | SW14 | U11 |
 | LED15 | V11 | SW15 | V10 |
 
-#### 2. Two-bit wide 4-to-1 multiplexer. Submit:
+### 2. Two-bit wide 4-to-1 multiplexer. Submit:
 
 * Listing of VHDL architecture from source file `mux_2bit_4to1.vhd` with syntax highlighting,
 
@@ -101,8 +101,8 @@ p_stimulus : process
 * Screenshot with simulated time waveforms; always display all inputs and outputs.
 ![Fotka](DE1_obr.png)
 
-#### 3. A Vivado tutorial. Submit:
-**Postup k vytvoření projektu**
+### 3. A Vivado tutorial. Submit:
+#### Postup k vytvoření projektu
 **File > Project > New**
 * Po té se proklikám k oknu, kde nastavím jméno projektu
 ![Fotka](DE1_Tutorial/obr1.png)
@@ -120,17 +120,18 @@ Volíme předdefinovanou desku Nexys A7-50T
 **Na závěr se nám vypíše tabulka shrnující nastavení projektu**
 ![Fotka](DE1_Tutorial/obr6.png)
 
-**Postup přidání testbench souboru**
+#### Postup přidání testbench souboru
 **File > Add Sources**
 A vybereme následující možnost.
 ![Fotka](DE1_Tutorial/obr7.png)
-**Následně vytvoříme Simulation Source file a vybereme jazyk VHDL**
+
+#### Následně vytvoříme Simulation Source file a vybereme jazyk VHDL
 ![Fotka](DE1_Tutorial/obr8.png)
-**Není nutné definovat piny na desce, proto pokračujeme bez změny**
+#### Není nutné definovat piny na desce, proto pokračujeme bez změny
 ![Fotka](DE1_Tutorial/obr9.png)
 
-**Postup pro spuštění simulace**
+#### Postup pro spuštění simulace
 ![Fotka](DE1_Tutorial/obr10.png)
 
-**Do vytvořeného Constraints file zkopírujeme soubor z GitHubu**
+#### Do vytvořeného Constraints file zkopírujeme soubor z GitHubu
 ![Fotka](DE1_Tutorial/obr11.png)
