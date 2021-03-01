@@ -104,7 +104,7 @@ p_stimulus : process
 #### 3. A Vivado tutorial. Submit:
 **Postup k vytvoření projektu**
 **File > Project > New**
-Dále se proklikám k oknu na pro nastavení jména projektu
+* Dále se proklikám k oknu, kde nastavím jméno projektu
 ![Fotka](DE1_Tutorial/obr1.png)
 Tak to nastavíme typ projektu
 Dále se proklikám k oknu na pro nastavení jména projektu
