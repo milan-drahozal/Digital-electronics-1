@@ -108,13 +108,13 @@ p_stimulus : process
 ![Fotka](DE1_Tutorial/obr1.png)
 #### Tak to nastavíme typ projektu
 ![Fotka](DE1_Tutorial/obr2.png)
-**Postup přidání source file**
+#### Postup přidání source file
 Je nutné nastavit jazyk VHDL
 ![Fotka](DE1_Tutorial/obr3.png)
-**Dále se vytváří Constraints file**
+#### Následně se vytváří Constraints file
 Prvně se vytvoří prázdný dokument
 ![Fotka](DE1_Tutorial/obr4.png)
-**V dalším kroku je nutné vybrat desku**
+#### V dalším kroku je nutné vybrat desku
 Volíme předdefinovanou desku Nexys A7-50T
 ![Fotka](DE1_Tutorial/obr5.png)
 **Na závěr se nám vypíše tabulka shrnující nastavení projektu**
