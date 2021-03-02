@@ -104,7 +104,7 @@ p_stimulus : process
 ### 3. A Vivado tutorial. Submit:
 #### Postup k vytvoření projektu
 **File > Project > New**
-* Po té se proklikám k oknu, kde nastavím jméno projektu
+* Po té se proklikám k oknu, kde nastavím jméno projektu a umístění projektu
 ![Fotka](DE1_Tutorial/obr1.png)
 #### Takto nastavíme typ projektu
 ![Fotka](DE1_Tutorial/obr2.png)
@@ -120,6 +120,7 @@ Volíme předdefinovanou desku Nexys A7-50T
 **Na závěr se nám vypíše tabulka shrnující nastavení projektu**
 ![Fotka](DE1_Tutorial/obr6.png)
 
+
 #### Postup přidání testbench souboru
 **File > Add Sources**
 A vybereme následující možnost.
@@ -127,7 +128,7 @@ A vybereme následující možnost.
 
 #### Následně vytvoříme Simulation Source file a vybereme jazyk VHDL
 ![Fotka](DE1_Tutorial/obr8.png)
-#### Není nutné definovat piny na desce, proto pokračujeme bez změny
+#### Není nutné definovat porty na desce, proto pokračujeme bez změny
 ![Fotka](DE1_Tutorial/obr9.png)
 
 #### Postup pro spuštění simulace
