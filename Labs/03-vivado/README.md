@@ -117,7 +117,7 @@ Prvně se vytvoří prázdný dokument
 #### V dalším kroku je nutné vybrat desku
 Volíme předdefinovanou desku Nexys A7-50T
 ![Fotka](DE1_Tutorial/obr5.png)
-**Na závěr se nám vypíše tabulka shrnující nastavení projektu**
+#### Na závěr se nám vypíše tabulka shrnující nastavení projektu
 ![Fotka](DE1_Tutorial/obr6.png)
 
 
