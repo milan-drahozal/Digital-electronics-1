@@ -42,7 +42,7 @@ begin
     -- WRITE "GREATER" AND "EQUALS" ASSIGNMENTS HERE
 
 
-end architecture Behavioral;¨
+end architecture Behavioral;
 ```
 * Listing of VHDL stimulus process from testbench file `tb_mux_2bit_4to1.vhd` with syntax highlighting,
 
