@@ -7,6 +7,7 @@
 ### 1. Preparation tasks (done before the lab at home). Submit:
 
 * Figure or table with connection of 7-segment displays on Nexys A7 board
+* 
 | Hex | Inputs | A | B | C | D | E | F | G |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | 0 | 0000 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
@@ -27,6 +28,7 @@
 | F | 1111 | 0 | 1 | 1 | 1 | 0 | 0 | 0 |
 
 * Decoder truth table for common anode 7-segment display.
+
 ![Fotka](photos/obr1.png)
 
 ### 2. Seven-segment display decoder. Submit:
