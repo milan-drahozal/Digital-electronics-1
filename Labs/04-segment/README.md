@@ -29,7 +29,8 @@
 
 * Decoder truth table for common anode 7-segment display.
 
-![Fotka](photos/obr1.png)
+
+![Fotka](photos/obr4.png)
 
 ### 2. Seven-segment display decoder. Submit:
 * Listing of VHDL architecture from source file hex_7seg.vhd with syntax highlighting
