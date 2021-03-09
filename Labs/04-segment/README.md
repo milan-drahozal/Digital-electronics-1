@@ -129,6 +129,20 @@ p_stimulus : process
 
 ![Fotka](photos/obr3.png)
 
+#### VHDL code from source file top.vhd
+```vhdl
+ port map(
+            hex_i => SW,
+            
+            seg_o(6) => CA,
+            seg_o(5) => CB,
+            seg_o(4) => CC,
+            seg_o(3) => CD,
+            seg_o(2) => CE,
+            seg_o(1) => CF,
+            seg_o(0) => CG
+        );
+```
 ### 3. LED(7:4) indicators. Submit:
 * Truth table and listing of VHDL code for LEDs(7:4) with syntax highlighting
 
@@ -165,5 +179,5 @@ p_stimulus : process
     -- Turn LED(7) on if input value is a power of two, ie 1, 2, 4, or 8
          LED(7)  <= '1' when (SW = "0001" or SW = "0010" or SW = "0100" or SW = "1000") else '0';
 ```
-
+#### Screenshot with simulated time waveforms with all inputs and outputs
 ![Fotka](photos/obr4.png)
