@@ -29,7 +29,27 @@
 
 * Decoder truth table for common anode 7-segment display.
 
-![Fotka](photos/obr2.png)
+![Fotka](photos/obr1.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### 2. Seven-segment display decoder. Submit:
 * Listing of VHDL architecture from source file hex_7seg.vhd with syntax highlighting
@@ -166,6 +186,9 @@ p_stimulus : process
 | F | 1111 | 0 | **1** | **1** | 0 |
 
 ```vhdl
+-- Display input value
+    LED(3 downto 0) <= SW;
+    
 -- LED(7:4) indicators
     -- Turn LED(4) on if input value is equal to 0, ie "0000"
         LED(4)  <= '1' when (SW = "0000") else '0';
