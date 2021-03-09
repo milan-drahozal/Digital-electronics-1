@@ -7,7 +7,7 @@
 ### 1. Preparation tasks (done before the lab at home). Submit:
 
 * Figure or table with connection of 7-segment displays on Nexys A7 board
-* 
+
 | Hex | Inputs | A | B | C | D | E | F | G |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | 0 | 0000 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
