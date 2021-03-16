@@ -7,9 +7,11 @@
 ### 1. Preparation tasks (done before the lab at home). Submit:
 
 * Figure or table with connection of push buttons on Nexys A7 board
+
 ![Fotka](photos/obr1.png)
 
 * Table with calculated values
+
 | **Time interval** | **Number of clk periods** | **Number of clk periods in hex** | **Number of clk periods in binary** |
 | :-: | :-: | :-: | :-: |
 | 2&nbsp;ms | 200 000 | `x"3_0d40"` | `b"0011_0000_1101_0100_0000"` |
@@ -45,7 +47,9 @@ p_cnt_up_down : process(clk)
 ```
 
 * Listing of VHDL reset and stimulus processes from testbench file tb_cnt_up_down.vhd with syntax highlighting and asserts
+
 #### Reset
+
 ```vhdl
  p_reset_gen : process
     begin
@@ -60,6 +64,7 @@ p_cnt_up_down : process(clk)
         wait;
     end process p_reset_gen;
 ```
+
 #### Stimulus
 
 ```vhdl
@@ -84,9 +89,8 @@ p_stimulus : process
     end process p_stimulus;
 ```
 
-
-
 * Screenshot with simulated time waveforms; always display all inputs and outputs
+
 ![Fotka](photos/obr2.png)
 
 ### 3. Top level. Submit:
