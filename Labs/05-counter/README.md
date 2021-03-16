@@ -48,7 +48,7 @@ p_cnt_up_down : process(clk)
 
 * Listing of VHDL reset and stimulus processes from testbench file tb_cnt_up_down.vhd with syntax highlighting and asserts
 
-#### Reset
+#### Reset process
 
 ```vhdl
  p_reset_gen : process
@@ -65,7 +65,7 @@ p_cnt_up_down : process(clk)
     end process p_reset_gen;
 ```
 
-#### Stimulus
+#### Stimulus process
 
 ```vhdl
 p_stimulus : process
