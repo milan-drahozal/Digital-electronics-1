@@ -237,9 +237,7 @@ begin
                 s_q <= not s_q;                 
                 
             end if;
-             
         end if;
-             
     end if; 
           
 end process p_jk_ff_rst;
@@ -262,9 +260,7 @@ begin
                 s_q <= not s_q;                 
                 
             end if;
-             
         end if;
-             
     end if; 
           
 end process p_t_ff_rst; 
