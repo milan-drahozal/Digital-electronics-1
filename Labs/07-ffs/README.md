@@ -176,7 +176,7 @@ begin
 
 * Screenshot with simulated time waveforms; always display all inputs and outputs. The full functionality of the entity must be verified.
 
-![](Images/obr1.png)
+![](photos/obr1.png)
 
 ### 3. Flip-flops. Submit:
 
@@ -633,5 +633,5 @@ t_ff_rst
 ### 4. Shift register. Submit:
 
 * Image of the shift register schematic. The image can be drawn on a computer or by hand. Name all inputs, outputs, components and internal signals.
-![](Images/obr6.png)
+![](photos/obr6.png)
 
