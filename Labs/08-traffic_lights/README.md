@@ -159,6 +159,7 @@ p_output_fsm : process(s_state)
 ![](photos/obr4.png)
 ### 3. Smart controller. Submit:
 * State table
+
 | **Current state (00)** | **Direction South** | **Direction West** |
 | :-- | :-: | :-: |
 | `SOUTH_GO`   | green  | red |
