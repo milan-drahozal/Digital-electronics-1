@@ -7,6 +7,7 @@ Výpočet hodnot zbývajících rezistorů
 ##### Tabulka součástek
 
 | **Název** | **Hodnota** | **Pouzdro** | 
+| :-: | :-: | :-: |
 | 40P Male header | pitch 2,54mm  | - |
 | 5V Relay RAS-05-15 | 120VAC/15A | - |
 | R1 | 10K | 0805 |
