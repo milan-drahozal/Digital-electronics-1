@@ -14,7 +14,7 @@ Výpočet hodnot zbývajících rezistorů
 | Diode 1N4007 | 1000V/1A | SOD-123FL | 1 | [GMe.cz](https://www.gme.cz/dioda-1n4007w) |
 | PNP transistor | 0,5A/0,25W | SOT23 | 5 | [GMe.cz](https://www.gme.cz/bipolarni-tranzistor-bc807-16-sot23) |
 | R1 - R3 | 10K | 0805 | 3 | [GMe.cz](https://www.gme.cz/r0805-10k-5-yageo) | 
-| R4 - R11  | 100R | 0805 | 12 | [GMe.cz](https://www.gme.cz/tc-0104) |
+| R4 - R11  | 100R | 0805 | 8 | [GMe.cz](https://www.gme.cz/tc-0104) |
 | R12 - R17 | 1K | 0805 | 6 | [GMe.cz](https://www.gme.cz/r0805-100r-1-yageo) |
 | R18, R19 | 1K | 0805 | 2 | |
 | Microswitch | 0,05A | -| 12 | [GMe.cz](https://www.gme.cz/tc-0104) | 
