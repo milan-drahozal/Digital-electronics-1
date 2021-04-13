@@ -12,7 +12,8 @@ Výpočet hodnot zbývajících rezistorů
 | 5V Relay | | 120VAC/15A | - | 1 | [GMe.cz](https://www.gme.cz/relras0515) |
 | Screw terminal 3P | | 16A/250V | - | 1 | [GMe.cz](https://www.gme.cz/svorkovnice-sroubovaci-do-dps-ark508-3p) |
 | Diode 1N4007 || 1000V/1A | SOD-123FL | 1 | [GMe.cz](https://www.gme.cz/dioda-1n4007w) |
-| PNP transistor || 0,5A/0,25W | SOT23 | 5 | [GMe.cz](https://www.gme.cz/bipolarni-tranzistor-bc807-16-sot23) |
+| PNP transistor | T1-T4 | 0,5A/0,25W | SOT23 | 4 | [GMe.cz](https://www.gme.cz/bipolarni-tranzistor-bc807-16-sot23) |
+| NPN transistor | T5-T6 | 0,5A/0,25W | SOT23 | 2 | [GMe.cz](https://www.gme.cz/bipolarni-tranzistor-bc817-40-sot23) |
 | Resistor| R1 - R3 | 10K | 0805 | 3 | [GMe.cz](https://www.gme.cz/r0805-10k-5-yageo) | 
 | Resistor |R4 - R11 | 100R | 0805 | 8 | [GMe.cz](https://www.gme.cz/tc-0104) |
 | Resistor | R12 - R17 | 1K | 0805 | 6 | [GMe.cz](https://www.gme.cz/r0805-100r-1-yageo) |
