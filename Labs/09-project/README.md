@@ -16,8 +16,8 @@ Výpočet hodnot zbývajících rezistorů
 | R1 - R3 || 10K | 0805 | 3 | [GMe.cz](https://www.gme.cz/r0805-10k-5-yageo) | 
 | R4 - R11  || 100R | 0805 | 8 | [GMe.cz](https://www.gme.cz/tc-0104) |
 | R12 - R17 || 1K | 0805 | 6 | [GMe.cz](https://www.gme.cz/r0805-100r-1-yageo) |
-| R18 | 65 || 0805 | 1 | |
-| R19 | 55 || 0805 | 1 | |
+| R18 || 65 | 0805 | 1 | |
+| R19 || 55 | 0805 | 1 | |
 | Microswitch || 0,05A | -| 12 | [GMe.cz](https://www.gme.cz/tc-0104) | 
 | LED red/green || 30 mA | T1 3/4 | 1 | [GMe.cz](https://www.gme.cz/led-5mm-rg-cc-45-45-50-led-beg204) |
 | LED display red || 30 mA | - | 1 | [GMe.cz](https://www.gme.cz/led-display-14-2mm-red-hd-m514rd) |
